@@ -5,14 +5,19 @@ import {
   createBrowserRouter,
   RouterProvider
 } from "react-router-dom";
-import App from './App.jsx'
+import { App } from "./Accueil.jsx"
+import { Competences } from "./Competences.jsx"
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
-]);
+  {
+    path: "/competences",
+    element: <Competences />,
+  },
+], {basename: "/portfolio-final"});
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
