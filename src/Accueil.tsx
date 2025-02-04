@@ -107,7 +107,7 @@ export function App() {
           </div>
           <img src={portrait} alt="Photo" className="rounded-xl w-96 h-auto" />
         </div>
-        <div className="px-48 w-full grid grid-cols-2 mt-32 justify-center items-center">
+        <div className="px-48 w-full grid grid-cols-2 my-32 justify-center items-center ">
           <div className="w-full flex justify-end pr-8">
             <h1 className="text-slate-500 text-7xl font-semibold">
               Qui suis-je ?
@@ -115,10 +115,12 @@ export function App() {
           </div>
           <p className="w-2/3 opacity-95 text-slate-500 text-xl">
             Je m&apos;appelle Jules Vic et suis actuellement étudiant en
-            deuxième année de BUT Informatique. Passionné par les nouvelles
-            technologies depuis des années, j&apos;aime explorer de nouveaux
-            domaines et enrichir mes connaissances. Curieux et motivé, je suis
-            toujours prêt à relever de nouveaux défis.
+            troisième année de BUT Informatique. Je suis en alternance chez
+            l'éditeur de solution de courtage LyaProtect, chez qui je
+            perfectionne mes compétences React, SpringBoot et Agile. Passionné
+            par les nouvelles technologies depuis des années, j&apos;aime
+            explorer de nouveaux domaines et enrichir mes connaissances. Curieux
+            et motivé, je suis toujours prêt à relever de nouveaux défis.
           </p>
         </div>
       </div>
